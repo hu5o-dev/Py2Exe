@@ -23,7 +23,7 @@ Welcome to **Py2Exe Converter**! This tool provides a simple and intuitive graph
    ```
 3. **Run the Application**:
    ```bash
-   python py2exe_converter.py
+   python Py2Exe.py
    ```
 4. **Convert Your Python Script**:
    - Select your `.py` file.
