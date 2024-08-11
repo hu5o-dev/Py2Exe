@@ -43,10 +43,10 @@ Here’s a quick walkthrough of how to convert your Python script to an `.exe`:
    ![File Selection](image1.png)
 
 2. **Choose your options**:
-   ![Options](imag2e.png)
+   ![Options](im3age.png)
 
 3. **Click Convert**:
-   ![Conversion](im3age.png)
+   ![Conversion](imag2e.png)
 
 4. **Done!** Your executable is ready to use.
 
