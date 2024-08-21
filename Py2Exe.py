@@ -11,7 +11,7 @@ class PyToExeConverter:
         self.root.geometry("500x300")
         self.root.configure(bg="#f0f0f0")
         
-        # File selection
+        
         self.file_label = tk.Label(root, text="Select Python File:", bg="#f0f0f0")
         self.file_label.pack(pady=10)
         
@@ -21,7 +21,7 @@ class PyToExeConverter:
         self.browse_button = tk.Button(root, text="Browse", command=self.browse_file, bg="#4CAF50", fg="white")
         self.browse_button.pack(pady=5)
         
-        # Options for conversion
+        
         self.option_frame = tk.Frame(root, bg="#f0f0f0")
         self.option_frame.pack(pady=10)
         
@@ -42,7 +42,7 @@ class PyToExeConverter:
         self.icon_button = tk.Button(self.option_frame, text="Browse", command=self.browse_icon, bg="#4CAF50", fg="white")
         self.icon_button.grid(row=1, column=2, padx=10, pady=10)
         
-        # Convert Button
+        
         self.convert_button = tk.Button(root, text="Convert to EXE", command=self.convert_to_exe, bg="#2196F3", fg="white", width=20)
         self.convert_button.pack(pady=20)
     
